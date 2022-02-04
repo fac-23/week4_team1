@@ -26,7 +26,7 @@ function get(request, response) {
           <label for="email">Email<span aria-hidden="true">*</span></label>
           <input type="email" name="email" required />
           <label for="password">Password<span aria-hidden="true">*</span></label>
-          <input id='password' type="password" name="password" aria-describedby= 'passwordRequired' required pattern='.*\d.*' minlength='8'/>
+          <input id='password' type="password" name="password" aria-describedby= 'passwordRequired' required pattern='.*\\d.*' minlength='8'/>
           <button class="link" id="log-in" type="submit">Log in!</button>
         </form>
         <p>Haven't signed up yet? It only takes 10 seconds!</p>
